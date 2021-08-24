@@ -21,7 +21,7 @@ const pontos = document.getElementById('pontos');
 // cria ordem aleatoria de cores
 let shuffleOrder = () => {
     //variável para guardar o número a cada rodada
-    let colorOrder = Math.floor(Math.random() * 2);
+    let colorOrder = Math.floor(Math.random() * 7);
     //atribuir o valor na próxima posição do array order
     order[order.length] = colorOrder;
     //clique continua vazio
@@ -37,7 +37,7 @@ let shuffleOrder = () => {
 
 //acender a próxima cor
 let lightColor = (color, element, number) => {
-    number = number * 1000;
+    number = number * 700;
     setTimeout(() => {
         element.classList.add('selected');
         soundColorPlay(color);
@@ -63,7 +63,7 @@ let checkOrder = () => {
         levelTela(score);
         setTimeout(() => {
             nextlevel();
-        }, 1000);
+        }, 2000);
     }
 }
 
