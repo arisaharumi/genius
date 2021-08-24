@@ -1,8 +1,5 @@
-Genius Game :: Projeto DIO 🎮
+Genius Game
 
-Nesse projeto, o desafio foi criar um jogo Genius utilizando apenas HTML, CSS e Javascript de forma introdutória, sendo o principal conceito, CSS Grid, manipulação de Array e Arrow Functions.
-
-Além do abordado nas aulas, este projeto possui alguns elementos a mais:
 Já implementados:
 
     Níveis do Jogo impresso em tela
